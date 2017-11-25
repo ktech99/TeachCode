@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="./css/animate.min.css" /><link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+    <title>If-else</title>
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics END -->
+
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    <!-- bloc-0 --><div class="bloc sticky-nav bgc-dark-jungle-green d-bloc hidden-xs" id="bloc-0">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="img/teach%20code.png" alt="logo" width="40" />Teach Code</a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+			</div>
+		</nav>
+	</div>
+</div><!-- bloc-0 END --><!-- bloc-25 --><div class="bloc bgc-dark-jungle-green d-bloc" id="bloc-25">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="text-center">
+					<a href="index.html" class="btn  btn-d  btn-lg">Back</a>
+				</div>
+				<h1 class="mg-md text-center  tc-cerise">
+					If-Else
+				</h1>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-25 END --><!-- Bloc Group --><div class='bloc-group'><!-- bloc-26 --><div class="bloc bloc-tile-2 full-width-bloc bgc-white l-bloc" id="bloc-26">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<blockquote>
+					<p>
+						If (day==“saturday") <br>{ <br> if(time==4) <br> { <br> print(“It is time to study")<br> } <br> <br> else <br> { <br> print(It is time to party)<br> } <br><br>} <br> <br>else <br>{ <br> print(It is not a saturday) <br>}<br>
+					</p>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-26 END --><!-- bloc-27 --><div class="bloc bloc-tile-2 bgc-cerise tc-black" id="bloc-27">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="mg-lg bloc-group-text-vc  text-center tc-black">
+					<u>Nested If-Else</u>
+				</h2>
+				<p class="mg-lg  animated fadeInRight">
+					Nested functions are functions which are placed inside another function. <br>This is sometimes necessary for certain programs, but it makes them slightly more complicated. <br>In this type of function, first the compiler will check if the outer function is satisfied, then only will it be able to check the inner function. <br>Let us see this with the example given. <br> <br>Lets say the day is saturday. <br>Therefore the outer if case is true and the control will enter the first If block. <br>Now the compiler encounters the second If statement. <br>Now if the time=4 the program enters the second if block and prints “It is time to study”. <br>If the time Is not=4 the program enters the inner else block instead and prints “It is time to party”. <br> <br>Now lets take the case that the day is monday. <br>As day is not=saturday, The control will not enter the first if block, but Instead it will enter the else block and prints “It is not a saturday”. <br> <br>Note: A good practice while using nested functions would be to use indentation.
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-27 END --></div><!-- Bloc Group END -->
+<!-- bloc-34 --><div class="bloc tc-black bgc-cerise" id="bloc-34">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="mg-md text-center tc-black ">
+					Answers
+				</h1>
+				<p class=" text-center animated">
+					(1) <br>System Name is correct <br>System Age is incorrect <br> <br>(2) <br>System name is incorrect <br>System age is correct <br> <br>(3) <br>System name is incorrect <br>System age is incorrect <br> <br>(4) <br>System name is correct <br>System age is correct
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-34 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END-->
+</div>
+<!-- Main container END -->
+
+
+</body>
+</html>
